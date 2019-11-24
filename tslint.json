@@ -1,7 +1,7 @@
 {
     "defaultSeverity": "error",
     "extends": [
-        "tslint-config-airbnb",
+        "tslint:recommended",
         "tslint-config-standard",
         "tslint-config-prettier"
     ],
@@ -11,7 +11,8 @@
         "object-literal-sort-keys": false,
         "member-ordering": false,
         "jsx-no-lambda": false,
-        "jsx-boolean-value": false
+        "jsx-boolean-value": false,
+        "member-access": false
     },
     "rulesDirectory": []
 }
